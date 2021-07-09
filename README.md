@@ -1,1 +1,1 @@
-# QuranInMarathi
+# marathiQuran
