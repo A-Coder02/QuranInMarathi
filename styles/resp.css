@@ -55,3 +55,46 @@
     color: white;
   }
 }
+@media only screen and (max-width: 600px) {
+  .lang-link-wrapper {
+    /* display: none; */
+  }
+  section.quran-ayat-window {
+    display: none;
+  }
+  .quran-ayat-item-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 69%;
+    flex: 0 1 100%;
+  }
+  .social-link-wrapper {
+    bottom: 1rem;
+    display: none;
+  }
+  .block {
+    display: block !important ;
+  }
+  .hide {
+    display: none !important ;
+  }
+  section.quran-wrapper {
+    display: flex;
+    height: 90vh;
+    flex-wrap: wrap;
+  }
+  section.quran-ayat-window.block {
+    width: 100%;
+  }
+  .quran-nav-wrapper {
+    width: 100%;
+  }
+  section.quran-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    height: fit-content;
+  }
+}
