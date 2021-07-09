@@ -45,4 +45,13 @@
   .social-link-wrapper {
     bottom: 1rem;
   }
+  .media-items-1 {
+    background-color: var(--s-clr);
+    height: fit-content !important;
+    clip-path: none;
+  }
+  .media-items > h1 {
+    font-size: 3rem;
+    color: white;
+  }
 }
